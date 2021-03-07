@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset=UTF-8><title>前端技术分享 - By bone</title><link rel=stylesheet href=https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=https://cdn.staticfile.org/prism/1.15.0/themes/prism.min.css><link rel=stylesheet href=https://cdn.staticfile.org/KaTeX/0.10.0-rc.1/katex.min.css><link href=./css/chunk-vendors.4e4765ff.css rel=stylesheet></head><body><div><article id=webslides><section slide class="slide bg-black-blue aligncenter" image=https://source.unsplash.com/C1HhAQrbykQ/ ><span class=background style="background-image:url('https://source.unsplash.com/C1HhAQrbykQ/')"></span><div class=wrap wrap=true><h1 class="text-landing text-shadow">前端技术分享</h1><p class="text-intro animated fadeInDown delay-800">By bone</p></div></section><section slide class="slide aligncenter fadeInUp animated"><div class=wrap wrap=true><h2 class="text-landing text-shadow delay-200 animated fadeInDown">青岛家具展项目复盘</h2><h2 class="text-landing text-shadow delay-500 animated fadeInDown">近年热门前端技术分享</h2></div></section><section slide class="slide bg-black" :class="size-40 aligncenter" image="https://cn.bing.com/az/hprichbg/rb/WinterLynx_ZH-CN7158207296_1920x1080.jpg .dark"><span class="background dark" style="background-image:url('https://cn.bing.com/az/hprichbg/rb/WinterLynx_ZH-CN7158207296_1920x1080.jpg')"></span><div class="wrap size-40 aligncenter" wrap=true><h2>青岛家具展项目复盘</h2><h2></h2><p class=text-intro>2021年青岛家具展项目是以前后端分离对接接口的方式，前端应用vue框架开发，这样选择的方式主要是项目不考虑seo,选择单页面应用会提高用户体验，并减少开发和后期维护成本</p></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>多页面应用和单页面应用对比</h2><h2></h2><p><a href=https://shop2.sdjys.org class="button animated flipInX delay-1200" target=_blank>多页面</a> <a href=https://shop5.sdjys.org class="button animated flipInX delay-1200" target=_blank>单页面</a></p></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h4>VUE全家桶</h4><hr><ul><li class="animated flipInX delay-400">vue-cli ==&gt; 是一个前端工程化的项目脚手架，可以集成各种插件和依赖，并对项目进行个性化配置；</li><li class="animated flipInX delay-800">vue-router ==&gt; 是一个前端的路由管理器，可以配置页面跳转，路由嵌套，路由参数；</li><li class="animated flipInX delay-1200">vuex ==&gt; 专为 Vue.js 应用程序开发的状态管理模式，方便管理整个项目的各类数据</li></ul></div></section><section slide class=slide><div class=wrap wrap=true><h2>脚手架搭建项目优势</h2><div class="vertical-align grid"><div class=column><ul><li>代码兼容压缩处理（防扒源码）</li><li>解耦，组件复用，减少编写代码量</li><li>MVVM的模式让dom元素渲染更快，易于开发</li></ul></div><div class=column><pre class="fadeInUp slow language-html"><code class=language-html>npm run build
+webpack config
+</code></pre><pre class="fadeInUp slow language-html"><code class=language-html>import comBullet from '../compontent/bullet.vue'
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>comBullet</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>comBullet</span><span class="token punctuation">></span></span>
+</code></pre></div></div></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>近年热门前端技术</h2></div></section><section slide class=slide><div class=wrap wrap=true><div class="quote card-50"><figure><img src=https://bone-soup.github.io/img/h5andflash.jpg alt=""></figure><blockquote><p>“flash 不安全、不老实、不高效、不开放” “html5 易维护、体验佳、功能强”</p></blockquote></div></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><p>功能强大的canvas，包括echarts,{.text-intro} (https:://shop2.sdjys.org)</p></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>依托于各大app的小程序</h2></div></section><section slide class=slide><div class=wrap wrap=true><ul class="flexblock gallery"><li><a><figure><img src=https://bone-soup.github.io/img/wx.jpg alt=""><figcaption><h2>微信</h2></figcaption></figure></a></li><li><a><figure><img src=https://bone-soup.github.io/img/zfb.jpg alt=""><figcaption><h2>支付宝</h2></figcaption></figure></a></li><li><a><figure><img src=https://bone-soup.github.io/img/bd.jpg alt=""><figcaption><h2>百度</h2></figcaption></figure></a></li></ul></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>跨平台解决方案（react-native,flutter,uniapp）</h2></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>围绕node服务端环境的生态系统</h2></div></section><section slide class="slide aligncenter"><div class=wrap wrap=true><h2>其他。包括桌面应用开发，游戏开发。。。</h2></div></section><section slide class="slide bg-black aligncenter" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim"><span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span><div class=wrap wrap=true><h2>谢谢大家</h2></div></section></article></div><script src=https://cdn.staticfile.org/echarts/4.8.0/echarts.min.js></script><script>window.pluginsOptions = {}
+
+
+
+    window.webslidesOptions = {}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    let isPrintMode = false;
+    if(~location.search.indexOf('print-pdf')){
+        isPrintMode = true;
+        WebSlides.registerPlugin('scroll', function(){});
+    }
+    const wsOptions = {
+        loop: false
+    };
+    if(window.webslidesOptions){
+        for (let i in webslidesOptions){
+            if(webslidesOptions.hasOwnProperty(i)){
+                wsOptions[i] = webslidesOptions[i];
+            }
+        }
+    }
+    const ws = new WebSlides(wsOptions)
+
+    window.wsInstance = ws;
+    if(isPrintMode){
+        ws.slides.forEach(s=>s.show())
+    }
+}, false)</script><script src=./js/chunk-vendors.js></script><script src=./js/slide.js></script></body></html>
