@@ -69,17 +69,16 @@ import comBullet from '../compontent/bullet.vue'
 > “flash 不安全、不老实、不高效、不开放”
 > “html5 易维护、体验佳、功能强”
 
-<slide class="aligncenter">
+<slide class="aligncenter" image="https://bone-soup.github.io/img/bga.png">
 
-功能强大的canvas，包括echarts,{.text-intro}
-(https://www.51qianduan.com/article/view/13763.html)
+## 功能强大的canvas
+[canvas](https://www.51qianduan.com/article/view/13763.html)
 
 <slide class="aligncenter">
 
 ## 依托于各大app的小程序
 
-<slide>
-
+<slide class="aligncenter" image="https://bone-soup.github.io/img/mini.jpg">
 
 
 <slide class="aligncenter">
@@ -88,21 +87,21 @@ import comBullet from '../compontent/bullet.vue'
 
 :::gallery
 
-![](https://bone-soup.github.io/img/wx.jpg)
+![](https://bone-soup.github.io/img/flutter.png)
 
-## 微信
-
----
-
-![](https://bone-soup.github.io/img/zfb.jpg)
-
-## 支付宝
+## flutter
 
 ---
 
-![](https://bone-soup.github.io/img/bd.jpg)
+![](https://bone-soup.github.io/img/react.png)
 
-## 百度
+## react-native
+
+---
+
+![](https://bone-soup.github.io/img/uniapp.png)
+
+## uniapp
 
 :::
 
@@ -113,7 +112,6 @@ import comBullet from '../compontent/bullet.vue'
 <slide class="aligncenter">
 
 ## 其他。包括桌面应用开发，游戏开发。。。
-
 
 <slide class="bg-black aligncenter" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
 
