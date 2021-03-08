@@ -72,13 +72,19 @@ import comBullet from '../compontent/bullet.vue'
 <slide class="aligncenter">
 
 功能强大的canvas，包括echarts,{.text-intro}
-(https://shop2.sdjys.org)
+(https://www.51qianduan.com/article/view/13763.html)
 
 <slide class="aligncenter">
 
 ## 依托于各大app的小程序
 
 <slide>
+
+
+
+<slide class="aligncenter">
+
+## 跨平台解决方案（react-native,flutter,uniapp）
 
 :::gallery
 
@@ -99,10 +105,6 @@ import comBullet from '../compontent/bullet.vue'
 ## 百度
 
 :::
-
-<slide class="aligncenter">
-
-## 跨平台解决方案（react-native,flutter,uniapp）
 
 <slide class="aligncenter">
 
