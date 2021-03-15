@@ -1,7 +1,10 @@
 <template>
   <div class="home">
 		<div class="pengke-btn"></div>
-		<Editer></Editer>
+		<Editer @input="inputTinyText" @onClick="clickTinyText">
+			<button>保存</button>
+		</Editer>
+		<div>{{value}}</div>
   </div>
 </template>
 
@@ -12,14 +15,23 @@ export default {
   components: { Editer },
 	data() {
 		return {
-			
+			value:''
 		}
 	},
-	mounted() {
-		
-	},
 	methods:{
+		// =====================================================================
+		// 监听输入
+		// =====================================================================
+		inputTinyText:function (e) {
+			this.value = e;
+		},
 		
+		// =====================================================================
+		// 监听提交
+		// =====================================================================
+		clickTinyText:function (e,tiny) {
+			console.log(e,tiny);
+		}
 	}
 }
 </script>

@@ -1,9 +1,12 @@
 <template>
-	<div class="tinymce-editor"><editor v-model="myValue" :init="init" :disabled="disabled" @onClick="onClick"></editor></div>
+	<div class="tinymce-editor">
+		<editor v-model="myValue" :init="init" :disabled="disabled" @onClick="onClick" @blur="onBlur"></editor>
+	</div>
 </template>
 <script>
 // "@tinymce/tinymce-vue": "^3.2.8",
 // "tinymce": "^5.0.3",
+// 官方兼容到IE11
 import tinymce from 'tinymce/tinymce';
 import Editor from '@tinymce/tinymce-vue';
 import 'tinymce/themes/silver';
@@ -14,6 +17,7 @@ import 'tinymce/plugins/lists'; // 列表插件
 import 'tinymce/plugins/code'; // 查看html源码
 import 'tinymce/plugins/wordcount'; // 字数统计插件
 import 'tinymce/icons/default/icons' //解决了icons.js 报错Unexpected token '<'
+// .... 其他插件按需引入
 export default {
 	components: {
 		Editor
@@ -71,14 +75,23 @@ export default {
 		tinymce.init({});
 	},
 	methods: {
-		// 添加相关的事件，可用的事件参照文档=> https://github.com/tinymce/tinymce-vue => All available events
+		// 添加相关的事件，可用的事件参照文档=> https://www.tiny.cloud/docs/integrations/vue/#eventbinding
 		// 需要什么事件可以自己增加
 		onClick(e) {
 			this.$emit('onClick', e, tinymce);
 		},
+		// 失焦保存
+		onBlur() {
+			console.log(111);
+			this.$emit('onBlur', this.myValue);
+		},
 		// 可以添加一些自己的自定义事件，如清空内容
 		clear() {
 			this.myValue = '';
+		},
+		// 保存数据
+		saveData() {
+			this.$emit('save',this.myValue);
 		}
 	},
 	watch: {
