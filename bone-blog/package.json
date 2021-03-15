@@ -22,7 +22,6 @@
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
-		"ie > 8",
-    "not dead"
+		"ie > 8"
   ]
 }
