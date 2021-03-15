@@ -10,6 +10,9 @@ module.exports = {
 			chunks: ['chunk-vendors', 'chunk-common', 'index']
 		},
 	},
+	chainWebpack (config) {
+	  config.entry('main').add('babel-polyfill')
+	},
 	devServer: {
 		host: '192.168.1.44',
 		port: 8080,
