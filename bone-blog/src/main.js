@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import WeakMap from 'weakmap-polyfill';
 
-window.WeakMap = WeakMap;
+console.log(WeakMap);
 Vue.config.productionTip = false
 
 new Vue({
