@@ -1,0 +1,26 @@
+/* ***************************************************************************************** */
+/* 招聘职位 */
+/* ***************************************************************************************** */
+.job-container{background: #f1f1f1;padding: 1rem 0;}
+.job-container table{width: 100%;margin-top: 20px;background: #FFFFFF;}
+.job-container tr {border-bottom: 1px solid #e1e1e1;}
+.job-container th {background-color: #666666;white-space: nowrap;height: 65px;text-align: center;color: #fff;font-size: 16px;padding: 0 20px;}
+.job-container td {white-space: nowrap;height: 65px;text-align: center;font-size: 16px;padding: 0 20px;color: #666666;}
+.job-container td.desc-btn {cursor: pointer;}
+.job-container td.desc-btn span{display: inline-block;vertical-align: middle;}
+.job-container td.desc-btn .add{width: 16px;height: 16px;border-radius: 50%;border: 1px solid #AAAAAA;margin-right: 5px;line-height: 15px;text-align: center;}
+.job-container td.desc-btn.active{color: #2961E0;}
+.job-container td.desc-btn.active .add{background: #2961E0;border: 1px solid #2961E0;color: #FFFFFF;}
+.job-container tr.desc {border-bottom: none;overflow: hidden;display: none;}
+.job-container tr.desc td {background-color: rgba(1,64,153,.06);padding: .6rem 1rem;text-align: left;}
+.job-container tr.desc td p {margin-bottom: 0;line-height: 2;}
+.job-container tr.desc td .title {color: #1c59d1;margin-top: .1rem;font-weight: 900;}
+.job-container tr.desc td .sub-btn {margin-top: 20px;}
+.shadow{position: fixed;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,.7);z-index: 100;display: none;}
+.upload-box{position: absolute;left: 50%;top: 50%;width: 8rem;height: 5rem;margin-top: -2.5rem;margin-left: -4rem;background: #FFFFFF;}
+.upload-box .close-upload{position: absolute;right: .25rem;top: .25rem;width: .4rem;height: .4rem;cursor: pointer;}
+.upload-box .pic{margin: 1rem auto .2rem;display: block;}
+.upload-box p{display: inline-block;width: 100%;color: #333333;font-size: .3rem;text-align: center;}
+.upload-box span{display: inline-block;text-align: center;width: 100%;color: #666666;margin: .15rem 0;}
+.upload-box .gradual-btn{margin: .2rem auto;position: relative;}
+.upload-input{opacity: 0;position: absolute;left: 0;width: 100%;height: 100%;top: 0;}

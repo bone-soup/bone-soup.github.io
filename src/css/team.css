@@ -1,0 +1,39 @@
+/* ***************************************************************************************** */
+/* 科研团队 */
+/* ***************************************************************************************** */
+/* 优势 */
+.page-banner{background: url(../images/team-bg.png) no-repeat;background-position: center;background-size: cover;}
+.team-container{background: #FFFFFF;}
+.team-container .top {position: relative;padding: 1rem 0;}
+.team-container .top p{color: #333333;font-weight: 900;font-size: .46rem;position: relative;}
+.team-container .top p:after{content: '';position: absolute;bottom: -.18rem;left: 0;height: 5px;width: .6rem;background: #2961E0;}
+.team-container .top span{color: #666666;font-size: .26rem;position: absolute;right: 0;}
+.team-container .top span:before{position: absolute;content: '';top: -.3rem;right: 0;height: 1px;width: 85%;background: #EEEEEE;}
+.team-container .bot{padding: .6rem 0 1rem;}
+.team-container .bot .item{width: 49%;border: 2px solid #2961E0;position: relative;text-align: center;height: 320px;overflow: hidden;}
+.team-container .bot .item .bg{position: absolute;}
+.team-container .bot .item .icon{display: inline-block;width: .8rem;margin: 1.2rem 0 .2rem;}
+.team-container .bot .item .bg{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+.team-container .bot .item .bga{opacity: 0;}
+.team-container .bot .item p{color: #2961E0;font-size: .32rem;font-weight: 900;position: relative;}
+.team-container .bot .item div{color: rgba(255,255,255,.8);margin-top: 4rem;opacity: 0;padding: 0 .55rem;text-align: left;}
+.team-container .bot .item:hover{background: #2961E0;}
+.team-container .bot .item:hover p{color: #FFFFFF;margin-top: -.4rem;}
+.team-container .bot .item:hover p:after{content: '';position: absolute;left: 50%;margin-left: -20px;width: 40px;height: 1px;background: #DDDDDD;bottom: -18px;}
+.team-container .bot .item:hover p:before{content: '';position: absolute;left: 50%;margin-left: -10px;width: 20px;height: 5px;background: #DDDDDD;bottom: -20px;}
+.team-container .bot .item:hover div{opacity: 1;margin-top: .6rem;}
+.team-container .bot .item:hover .icon{margin-top: 0;opacity: 0;}
+.team-container .bot .item:hover .bga{opacity: 1;}
+.team-container .bot .item:hover .bgb{opacity: 0;}
+/* 团队 */
+.team-man{background: #F1F1F1;}
+.team-man .com-box{padding: 1.2rem 0 1.4rem;}
+.team-man .item{background: #FFFFFF;width: 31%;padding: .5rem .3rem;float: left;margin-left: 3.5%;position: relative;transition: all .2s linear;top: 0;height: 5.5rem;}
+.team-man .item:first-child{margin-left: 0;}
+.team-man .item .avatar-box{width: 90px;height: 90px;border-radius: 50%;background: #F1F1F1;position: relative;margin: .2rem auto .2rem;}
+.team-man .item .avatar-box img{position: absolute;left: 0;top: 0;right: 0;bottom: 0;max-width: 100%;max-height: 100%;margin: auto;}
+.team-man .item p{width: 100%;text-align: center;color: #333333;font-size: .36rem;font-weight: 900;transition: all .2s linear;}
+.team-man .item span{color: #AAAAAA;font-size: .24rem;display: inline-block;text-align: center;width: 100%;margin:.1rem auto .2rem;}
+.team-man .item:hover{background: #2961E0;top: -.35rem;}
+.team-man .item:hover p{color: #FFFFFF;}
+.team-man .item:hover div,.team-man .item:hover span{color: #DDDDDD;}
